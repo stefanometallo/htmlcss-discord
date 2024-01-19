@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header{
+    background-color: rgb(173 216 230);
+    padding: 10px;
+  }
+  
+  header section{
+    display: flex;
+    justify-content: center; 
+  }
+  
+  header .logo{
+    background-color: rgb(218 165 33);
+    width: 200px;
+    border:dashed
+  }
+  
+  header .menu{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(218 165 33);
+    width: 600px;
+  }
+  
+  header .login{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(218 165 33);
+    width: 200px;
+  }
+  
+  
+  .container-top{
+    background-color: rgb(0 0 139);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .top{
+    text-align: center;
+    padding: 10% 15%;
+    background-color: rgb(204 111 204);
+    margin: 0 21%;
+  }
+   
+  
+  .box{
+    width: 80%;
+    padding: 40px 0; 
+    margin: 0 auto;
+    display: flex ;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .box.invertito{
+    flex-direction: row-reverse;
+  }
+   
+  .box .immagine{
+    background-color: rgb(29 144 255);
+    width: 60%;
+    height:300px;
+  }
+  
+  .box .testo{
+    background-color: rgb(255 193 203);
+    width: 40%;
+    height: 300px;
+  }
+  
+  
+  .container-grey{
+    background-color: grey;
+  }
+  
+   .top4 .immagine{
+    background-color: rgb(142, 19, 19);
+    width: 60%;
+    height:300px;
+  }
+  
+  .top4 .testo{
+    background-color: rgb(255 193 203);
+    width: 40%;
+    height: 300px;
+  }
+  
+  .bottom{
+    background-color: gray;
+    margin: 210 156%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bottom img{
+    background-color: green;
+    width: 600px;
+    height: 500px;
+  
+  }  
+  
+  footer{
+    background-color: rgb(35 39 42);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .contenitore-footer{
+    margin: 8px 14%;
+  }
+  
+  .colonne{
+    padding-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(33 178 170);
+    align-items: flex-start;
+    border-bottom: 5px solid black;
+  }
+  
+  .colonna-grande{
+    background-color: rgb(240 128 128);
+    width: 30%;
+  }
+  
+  .colonna-piccola{
+    background-color: rgb(240 128 128);
+    width: 17.5%;
+  }
+  
+  .footer-sotto{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-sotto img{
+    height: 40px;
+    width: 100px;
+  }
