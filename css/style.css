@@ -3,8 +3,14 @@
     padding: 0;
     box-sizing: border-box;
   }
-  header{
-    background-color: rgb(173 216 230);
+  .jumbo{
+    max-width: 100%;
+  }
+  header .nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
     padding: 10px;
   }
   
@@ -12,20 +18,12 @@
     display: flex;
     justify-content: center; 
   }
-  
-  header .logo{
-    background-color: rgb(218 165 33);
-    width: 200px;
-    border:dashed
-  }
-  
   header .menu{
     display:flex;
     justify-content: space-around;
     background-color: rgb(218 165 33);
     width: 600px;
   }
-  
   header .login{
     display: flex;
     justify-content: flex-end;
